@@ -1,0 +1,46 @@
+/* pages/home/home.wxss */
+.swiper-container
+{
+  height: 450rpx;
+}
+.item
+{
+  width: 100%;
+  height: 100%;
+  
+}
+.container_view
+{
+  width: 100%;
+  height: 100%;
+}
+.ma
+{
+  height: 400rpx;
+  width: 100rpx;
+  border:black;
+}
+.x
+{
+  position: relative;
+}
+.content
+{
+  position:absolute;
+  z-index: 1;
+
+}
+.td {
+
+  display: flex;
+
+  align-items: center;
+
+  justify-content: center;
+ 
+  color:blue;
+}
+.td1
+{
+  color: brown;
+}

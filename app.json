@@ -1,0 +1,39 @@
+{
+    "pages": [
+      "pages/home/home",
+      "pages/me/me"
+      
+    ],
+    "window": {
+        "backgroundTextStyle": "light",
+        "navigationBarBackgroundColor": "#2b4b6b",
+        "navigationBarTitleText": "健身房预约",
+        "navigationBarTextStyle": "white",
+        "enablePullDownRefresh": true,
+        "backgroundColor": "#efefef",
+        "backgroundTextStyle":"dark"
+    },
+
+    "tabBar": {
+      "color": "#333",
+    "backgroundColor": "#f6f6f6",
+    "borderStyle": "white",
+      "list": [
+        {
+        
+          "pagePath": "pages/home/home",
+          "text":"预约 ",
+          "ionpath":"images/home.png",
+          "selectedIconPath": "images/homeactive.png"
+        },
+        {
+          "pagePath": "pages/me/me",
+          "text":"我的",
+          "ionpath":"images/me.png",
+          "selectedIconPath": "images/meactive.png"
+        }
+      ]
+    },
+    "style": "v2",
+    "sitemapLocation": "sitemap.json"
+}

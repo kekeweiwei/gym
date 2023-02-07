@@ -1,0 +1,47 @@
+<!--pages/home/home.wxml-->
+<scroll-view class="container_view" scroll-y>
+<swiper class="swiper-container " indicator-dots indicator-color="white" circular="ture">
+  <swiper-item class="item">
+    <view>
+      <image src="/images/swiper1.png" mode="aspectFill"></image>
+    </view>
+  </swiper-item>
+  <swiper-item>
+    <view>
+      <image src="/images/swiper2.png" mode="aspectFill"></image>
+    </view>
+  </swiper-item>
+  <swiper-item>
+    <view>
+      <image src="/images/swiper3.png" mode="aspectFill"></image>
+    </view>
+  </swiper-item>
+</swiper>
+<view class="td">
+<text >课程预约</text>
+</view>
+<view style="flex-direction: column;">
+  <view class="ma">
+    <image src="/images/1.jpg" ></image>
+  </view>
+  <view class="td1"><text>俯卧撑课程：                       余12 </text></view>
+  <view class="ma">
+    <image src="/images/2.jpg" ></image>
+  </view>
+  <view class="td1"><text>全身塑形：                       余20</text></view>
+  <view class="ma">
+    <image src="/images/3.png" ></image>
+  </view>
+  <view class="ma">
+    <image src="/images/4.jpg" ></image>
+  </view>
+  <view class="ma">
+    <image src="/images/5.jpg" ></image>
+  </view>
+  
+
+</view>
+
+
+
+</scroll-view>
